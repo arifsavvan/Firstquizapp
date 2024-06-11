@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+/* heading componenet */
+.header_com_tit_dev{
+  background-color: black;
+  color: white;
+  font-size: x-large;
+  height: 70px;
+  box-sizing: content-box;
+}
+.header_com_tit{
+  color: green;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+/* quiz start component */
+.startcommaindev{
+  border: 3px solid rgb(226, 221, 221);
+  background-image: url("https://cdn.britannica.com/90/217490-131-CEE12385/Texas-state-capitol-building-Austin-Texas.jpg?w=400&h=225&c=crop");
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  border-radius: 20px;
+  margin-top: 5px;
+
+}
+
+.aa{
+  justify-content: center;
+  margin-top: 10%;
+  display: flex;
+  height: 210px;
+  text-align: center;
+  opacity: 0.86
+}
+.a{
+  height: 260px;
+  
+}
+/* result  */
+.resulttit{
+  float: left;
+  columns: black;
+  text-decoration-line: underline;
+  font-size: 50px;
+ 
+}
+/* quiz question  */
+.qqt{
+  margin-top: 15px;
+  background-color: rgb(199, 197, 197);
+  border: 2px solid rgb(199, 196, 196);
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+  padding: 15px;
+  border-bottom: 3px solid rgb(238, 235, 235);
+  box-shadow: inset;
+
+}
+.qqc{
+  background-color: rgb(235, 232, 232);
+  border: 2px solid rgb(207, 205, 205);
+  height: auto;
+  box-shadow: 0cqh;
+
+}
+.nextbtndiv{
+  justify-content: center;
+  text-align: center;
+  /* width: 100%; */
+}
+.nextbtn{
+  width: 40%;
+  color: greenyellow;
+  text-shadow: 10cm;
+}
